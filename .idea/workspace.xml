@@ -9,8 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47623b5b-2d98-47a5-a232-f0d33d64bde8" name="Changes" comment="Add dao for book and person, create MainController and starting page, add ru languege support">
+    <list default="true" id="47623b5b-2d98-47a5-a232-f0d33d64bde8" name="Changes" comment="Add all to main">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9f00b773-dca2-4a5e-befb-b3e32163ac30.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9f00b773-dca2-4a5e-befb-b3e32163ac30.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9f00b773-dca2-4a5e-befb-b3e32163ac30/storage_v2/_src_/database/library_db.gs7L3Q/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9f00b773-dca2-4a5e-befb-b3e32163ac30/storage_v2/_src_/database/library_db.gs7L3Q/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/hrynko/spring/controllers/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/hrynko/spring/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/hrynko/spring/controllers/PeopleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/main/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/all.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +57,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
@@ -85,8 +95,13 @@
       <recent name="C:\Users\USER\OneDrive\Рабочий стол\учеба\spring hren\spring-mvc-training\src\main\webapp\WEB-INF\main" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.75">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8081/WEB-INF/views/people/index.html">
+      <method v="2" />
+    </configuration>
     <configuration name="Tomcat 9.0.75" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.75" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8082/people" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="spring-mvc-training:war exploded">
@@ -97,7 +112,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="4f420de8-20b9-48a2-9c9a-bf02dd2e3981" />
-        <option name="HTTP_PORT" value="8081" />
+        <option name="HTTP_PORT" value="8082" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -174,6 +189,15 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.index.html" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.75" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -189,6 +213,9 @@
       <workItem from="1700035398289" duration="1837000" />
       <workItem from="1700045921038" duration="275000" />
       <workItem from="1701002837086" duration="8218000" />
+      <workItem from="1701111986747" duration="1500000" />
+      <workItem from="1701280657556" duration="122000" />
+      <workItem from="1701286146482" duration="4558000" />
     </task>
     <task id="LOCAL-00001" summary="project created">
       <option name="closed" value="true" />
@@ -222,16 +249,54 @@
       <option name="project" value="LOCAL" />
       <updated>1701031127897</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add">
+      <option name="closed" value="true" />
+      <created>1701112972759</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701112972759</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Change">
+      <option name="closed" value="true" />
+      <created>1701113152463</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1701113152463</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Add all to main">
+      <option name="closed" value="true" />
+      <created>1701113193359</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1701113193359</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project created" />
     <MESSAGE value="template of project created" />
     <MESSAGE value="Add dao for book and person, create MainController and starting page, add ru languege support" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add dao for book and person, create MainController and starting page, add ru languege support" />
+    <MESSAGE value="add" />
+    <MESSAGE value="Change" />
+    <MESSAGE value="Add all to main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add all to main" />
   </component>
 </project>
